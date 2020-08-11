@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSCalc</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/app/logic.js" async></script>
+</head>
+
+<body onload='zoomIn()'>
+    <h1>JSCalc <a class="popup-box" href="#about">About</a></h1>
+    <div class="calculator">
+        <table>
+            <textarea id="output" cols="10" rows="4" disabled></textarea>
+
+            <tr>
+                <th class="operation" id="sqrt">√</th>
+                <th class="operation" id="cbrt">∛</th>
+                <th class="operation" id="pw_2">x<sup>2</sup></th>
+                <th class="operation" id="pw_3">x<sup>3</sup></th>
+            </tr>
+
+            <tr>
+                <th class="number" onclick="addValue(7)">7</th>
+                <th class="number" onclick="addValue(8)">8</th>
+                <th class="number" onclick="addValue(9)">9</th>
+                <th class="operation" id="multiply">X</th>
+            </tr>
+
+            <tr>
+                <th class="number" onclick="addValue(4)">4</th>
+                <th class="number" onclick="addValue(5)">5</th>
+                <th class="number" onclick="addValue(6)">6</th>
+                <th class="operation" id="minus">-</th>
+            </tr>
+
+            <tr>
+                <th class="number" onclick="addValue(1)">1</th>
+                <th class="number" onclick="addValue(2)">2</th>
+                <th class="number" onclick="addValue(3)">3</th>
+                <th class="operation" id="add">+</th>
+            </tr>
+
+            <tr>
+                <th class="operation" id="clear">C</th>
+                <th class="number" onclick="addValue(0)">0</th>
+                <th class="operation" id="divide">/</th>
+                <th class="operation equals" id="equals">=</th>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="about" class="overlay">
+        <div class="popup">
+            <h2>About JSCalc</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content" id="content">
+                <font color="red"><strong>JSCalc</strong></font> is a <strong>Web calculator</strong> built using only
+                HTML, CSS and
+                Javascript. <br>
+                The calculator has <u>shortcuts</u> to make it easier for the user to enter input:
+                <ul>
+                    <li>
+                        numbers from <kbd>0</kbd> to <kbd>9</kbd> to type a number
+                    </li>
+                    <li>
+                        <kbd>*</kbd> to multiply
+                    </li>
+                    <li>
+                        <kbd>-</kbd> to subtract
+                    </li>
+                    <li>
+                        <kbd>+</kbd> to add
+                    </li>
+                    <li>
+                        <kbd>c</kbd> / <kbd>C</kbd> or <kbd>ESC</kbd> to delete the display content
+                    </li>
+                    <li>
+                        <kbd>/</kbd> to divide
+                    </li>
+                    <li>
+                        <kbd>ENTER</kbd> to get the result of the operation
+                    </li>
+                </ul>
+                thanks to:
+                <ul>
+                    <li>
+                        <a href="https://codepen.io/imprakash">Prakash</a> on <a href="https://codepen.io/">CodePen</a>
+                        for the CSS pop-up
+                    </li>
+                </ul>
+                <p>&copy; 2020 Leonardo Arditti
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
