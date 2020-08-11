@@ -24,4 +24,4 @@ The usable **shortcuts** are as follows:
 ## Online demo
 [JSCalc demo](https://leonardo-arditti.github.io/JSCalc/)
 
-_For further information and usage, refer to the [About] (https://leonardo-arditti.github.io/JSCalc/#about) section within the page._
+_For further information and usage, refer to the [About](https://leonardo-arditti.github.io/JSCalc/#about) section within the page._
