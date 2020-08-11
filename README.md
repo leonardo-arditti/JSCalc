@@ -5,6 +5,7 @@
 ![](header.PNG)
 ## Usage instructions
 The calculator is very simple to use and supports both *keyboard* and *mouse* input.
+
 The usable **shortcuts** are as follows:
 
 - numbers from <kbd>0</kbd> to <kbd>9</kbd> to type a number
@@ -21,5 +22,6 @@ The usable **shortcuts** are as follows:
     * JSCalc release
 
 ## Online demo
-[JSCalc demo](https://github.com/leonardo-arditti/JSCalc)
+[JSCalc demo](https://leonardo-arditti.github.io/JSCalc/)
+
 _For further information and usage, refer to the [About] [about] section within the page._
