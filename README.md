@@ -1,7 +1,7 @@
 
 # JSCalc
 > A simple web calculator using HTML, CSS and JavaScript.
-![](header.png)
+![](header.PNG)
 ## Usage instructions
 The calculator is very simple to use and supports both *keyboard* and *mouse* input.
 The usable **shortcuts** are as follows:
